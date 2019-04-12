@@ -1,0 +1,60 @@
+@media screen and (max-width: 500px) {
+    
+    .photo-box {
+        left: 7px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .photo-box {
+        left: 59px;
+        width: 18%;
+        top: -24px;
+    }
+
+    .description {
+        width: 80%;
+        padding: 5px 0 5px 14%;
+        right: 1%;
+    }
+
+    .name{
+        margin-left: 10%;
+    }
+
+    .job-position{
+        margin-left: 10%;
+    }
+
+    .comments-inn {
+        width: 90%;
+    }
+
+    .comments-content {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .photo-box {
+        left: 92px;
+        width: 14%;
+        top: -19px;
+    }
+
+    .circle {
+        border-radius: 0;
+    }
+
+    .comments-content {
+        width: 82%;
+    }
+
+    .comments-inn {
+        width: 82%;
+    }
+
+}
