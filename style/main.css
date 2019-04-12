@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    min-width: 505px;
+    height: auto;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.service-title{
+    padding: 15px 25px 15px 0;
+    color: #333333;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: end;
+    margin-top: 60px;
+}
+
+.services-box{
+    height: 106px;
+    margin-bottom: 30px;
+    width: 76%;
+    margin-left: 20%;
+}
+
+hr{
+    height: 1px;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.handle-book{
+    background-color: #3cb305;
+}
+
+.package-tour{
+    background-color: #30b6ee;
+}
+
+.hotels{
+    background-color: #30b6ee;
+}
+
+.determinate{
+    color: #333333;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-left: 6px;
+    border-radius: 2px;
+}
+
+.service-counter{
+    position: absolute;
+    right: 27px;
+    font-weight: 500;
+}
+
+.total-service-info{
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.total-service{
+    margin-right: 27px;
+}

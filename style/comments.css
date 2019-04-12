@@ -1,0 +1,83 @@
+.comments-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-width{
+    width: 75%;
+}
+
+.comments-inn{
+    width: 100%;
+    height: 215px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.like-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.form-custom-style{
+    width:90%;
+    height: 65px;
+}
+
+#textarea2{
+    height: 65px;
+}
+
+.comment-box{
+    width: 90%;
+    margin-left: 7%;
+}
+
+.name-user{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.date{
+    color: #808080;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.message-text{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    height: auto;
+    padding: 10px;
+    background-color: #f2fbff;
+    width: auto;
+    margin-left: 7%;
+}
+
+.send-message{
+    width: 282px;
+    height: 43px;
+    background-color: #fdd639;
+    outline-style: none;
+    border: none;
+    border-radius: 20px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.send-message:active{
+    background-color: #f5c400;
+}
+
+.comment-style{
+
+}

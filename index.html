@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--reset.css-->
+    <link rel="stylesheet" href="./style/reset.css">
+<!--materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./style/materialize.min.css" media="screen,projection"/>
+<!-- custom.css -->
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/personal-info.css">
+    <link rel="stylesheet" href="./style/comments.css">
+
+    <title>TEST_PAGE</title>
+</head>
+<body>
+    <section>
+        <div class="manager-info">
+            <div class="personal-info">
+                <div style="padding-left: 25%;">
+                    <p class="name">Вероника Ростова</p>
+                    <p class="job-position">Менеджер по продажам</p>
+                </div>
+                <div class="description-info">
+                    <div class="description"><p>Подберу для вас самые лучшие предложения.<br>
+                        Мои услуги абсолютно бесплатны</p>
+                    </div>
+                    <div class="photo-box">
+                        <img class="personal-photo circle responsive-img" src="./images/personal-photo.jpg" alt="personal-photo">
+                    </div>
+                </div>
+            </div>
+            <div class="service-title">Услуги</div>
+            <div class="services-box">
+                <hr>
+                <div class="progress">
+                    <div class="determinate handle-book" style="width: 70%; height: 24px;">Ручное бронирование</div><span class="service-counter">11</span>
+                </div>
+                <div class="progress">
+                    <div class="determinate package-tour" style="width: 35%; height: 24px;">Пакетные туры</div><span class="service-counter">3</span>
+                </div>
+                <div class="progress">
+                    <div class="determinate hotels" style="width: 21%; height: 24px;">Отели</div><span class="service-counter">2</span>
+                </div>
+                <hr>
+                <div class="total-service-info">
+                    <span>Всего</span>
+                    <span class="total-service"></span>
+                </div>
+            </div>
+            <div class="score">
+                <img src="./images/like-img.png" alt="like">
+                <button class="like-btn">0</button>
+                <img src="./images/comment-img.png" alt="comment">
+                <span class="comments-counter">0</span>
+            </div>
+        </div>
+
+        <div class="comments-content">
+            <div class="row row-width">
+                <div class="col s12">
+                    <ul class="tabs">
+                    <li class="tab col s3" id="last"><a href="#test1">Последние отзывы</a></li>
+                    <li class="tab col s3" id="all"><a class="active" href="#test2">Все отзывы</a></li>
+                    </ul>
+                </div>
+                <div id="test1" class="col s12">
+                    <ol class="comment-list-last"></ol>
+                </div>
+                <div id="test2" class="col s12">
+                    <ol class="comment-list-all"></ol>
+                </div>
+            </div>
+        </div>
+        <div class="comments-inn">
+            <form class="col s12 form-custom-style">
+                    <div class="input-field col s12">
+                    <textarea name="text" onkeydown="SendComment(event)" id="textarea2" class="materialize-textarea custom-textarea"></textarea>
+                </div>
+            </form>
+            <button class="send-message"type="submit" name="action">Написать консультанту</button>
+        </div>
+    </section>
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
